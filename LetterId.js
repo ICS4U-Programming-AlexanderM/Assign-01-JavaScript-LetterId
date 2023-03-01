@@ -12,9 +12,9 @@ function letterId() {
     // Array of all English letters in a specific order.
     // Y is first, followed by all other vowels.
     // The rest are consonants.
-    const letters = ['y', 'a', 'e', 'i', 'o', 'u', 'b', 'c', 'd',
-        'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't',
-        'v', 'w', 'x', 'z'];
+    const letters = ['y', 'a', 'e', 'i', 'o', 'u', 'b', 'c', 'd', 'f', 'g',
+                     'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't',
+                     'v', 'w', 'x', 'z'];
     // Declare variables.
     let counter = 0;
     let userLetter = 'a';
