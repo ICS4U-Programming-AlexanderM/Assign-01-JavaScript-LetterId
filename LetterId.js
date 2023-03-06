@@ -38,11 +38,11 @@ function letterId() {
             console.log(userLetter.toUpperCase() + " is both a consonant and a vowel.");
         } else if (counter < 6) {
             console.log(userLetter.toUpperCase() + " is a vowel.");
-        } else if (counter < 25){
+        } else if (counter < 25) {
             console.log(userLetter.toUpperCase() + " is a consonant.");
         } else {
             // For when the end of the array is reached without a match.
-            // Error checker replacement (Couldn't get regular error checker to work with char variable type).
+            // Error checker replacement.
             console.log("Invalid input.");
         }
     }
